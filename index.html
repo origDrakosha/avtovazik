@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <meta content="Конструктор сайтов" name="description">
+    <title>Конструктор сайтов</title>
+    <link href="./index_files/style.css" rel="stylesheet">
+    <script src="./index_files/index-silent.js.Без названия"></script>
+  <link rel="stylesheet" href="./index_files/style.min.css"></head>
+  <body style="margin: 0px; padding: 0px;">
+    <div class="container">
+      <h1 class="visually-hidden">Конструктор сайтов</h1>
+     
+      <div class="layout layout--shop">
+        <header class="header">
+          <p class="placeholder">Header</p>
+          <button class="add-btn" type="button"></button>
+          <div class="choose-elem hidden">
+          </div>
+          <div class="header__elements-wrapper"><div class="element title">
+        <h1 class="template-content">Виды</h1>
+
+      </div><div class="element title">
+        <h1 class="template-content">тюнинга</h1>
+        
+      </div><div class="element title">
+        <h1 class="template-content">АВТОВАЗа</h1>
+        
+      </div></div>
+        </header>
+
+        <div class="content content-1">
+          <p class="placeholder">Content</p>
+          <div class="choose-elem hidden">
+          </div>
+          <div class="content__elements-wrapper content-1__elements-wrapper"><div class="element image">
+        <img alt="" class="template-content" src="./index_files/8e7d4as-960.jpg">
+        
+      </div><div class="element text">
+        <p class="template-content">Бакинский передок</p>
+      </div><div class="element image">
+        <img alt="" class="template-content" src="./index_files/e71a5f2s-960.jpg">
+      </div><div class="element text">
+        <p class="template-content">Внедорожный тюнинг</p>
+      </div></div>
+        </div>
+
+        <div class="content content-2">
+          <p class="placeholder">Content</p>
+
+          <div class="choose-elem hidden">
+          </div>
+          <div class="content__elements-wrapper content-2__elements-wrapper"><div class="element image">
+        <img alt="" class="template-content" src="./index_files/i">
+      </div><div class="element text">
+        <p class="template-content">БПАН</p>
+      </div><div class="element image">
+        <img alt="" class="template-content" src="./index_files/1667493406_25-sportishka-com-p-driftovaya-zhiga-pinterest-27.jpg">
+
+      </div><div class="element text">
+        <p class="template-content">Дрифт тюнинг</p>
+      </div></div>
+        </div>
+
+        <div class="content content-3">
+          <p class="placeholder">Content</p>
+          <div class="choose-elem hidden">  
+          </div>
+          <div class="content__elements-wrapper content-3__elements-wrapper"><div class="element image">
+        <img alt="" class="template-content" src="./index_files/vZojUE3XZvQ.jpg">
+     
+      </div><div class="element text">
+        <p class="template-content">ретро-тюнинг</p> 
+      </div><div class="element image">
+        <img alt="" class="template-content" src="./index_files/gmr21YEz9AM.jpg">  
+      </div><div class="element text">
+        <p class="template-content">Боевая классика</p> 
+      </div></div>
+        </div>
+
+        <footer class="footer">
+          <p class="placeholder">Footer</p>
+          <div class="choose-elem hidden">
+          </div>
+          <div class="footer__elements-wrapper"><div class="element title">
+        <h3 class="template-content">Выбирайте тюнинг</h3>
+       
+      </div><div class="element title">
+        <h3 class="template-content">по душе!</h3>
+        
+      </div></div>
+        </footer>
+
+      </div>
+    </div>
+
+    <template id="h1-template"></template>
+
+    <template id="h2-template"></template>
+
+    <template id="h3-template"></template>
+
+    <template id="p-template"></template>
+
+    <template id="img-template"></template>
+    
+    <script src="./index_files/script.js.Без названия"></script>
+
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+<div class="console-container"><div class="console"><div class="console__row "><pre class="console__item item item--primitive c-string    ">Live reload enabled.</pre></div></div></div></body></html>
